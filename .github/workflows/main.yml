@@ -1,8 +1,10 @@
 name: Github actions demo
-on:[push]
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
-   - name: Print hello world
-     run : echo "Hello world"
+    
+    steps:
+    - name: Print hello world
+      run : echo "Hello world"
