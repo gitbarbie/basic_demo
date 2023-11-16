@@ -1,12 +1,18 @@
 name: Print I can write in github
 on:
-  push:
-    branches:
-      -  main
+
+     
 jobs:
-  print:
+ job1 :
 
     runs-on: ubuntu-latest
     steps:
     -  name: Print Sentence
        run : echo" I can print sentence in github"
+ job2 :
+   runs-on: ubuntu-latest
+
+   steps:
+   -  name: Print another sentence
+      run :  echo "This is my second print sentence in github"
+
