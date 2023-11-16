@@ -1,0 +1,12 @@
+name: Print I can write in github
+on:
+  push:
+    branches:
+      -  main
+jobs:
+  print:
+
+    runs-on: ubuntu-latest
+    steps:
+    -  name: Print Sentence
+       run : echo" I can print sentence in github"
