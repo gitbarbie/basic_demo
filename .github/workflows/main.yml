@@ -2,18 +2,8 @@ name: Github actions demo
 on: [push]
 
 jobs:
- job1 :
-   
-    runs-on: ubuntu-latest
-   
-    steps:
-    - name: Print hello world
-      run : echo " I can print"
-     
- job2 :
-
- 
-   azure-login:
+    
+  azure-login:
      runs-on: ubuntu-latest
      steps:
 
