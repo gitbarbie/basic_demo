@@ -8,14 +8,14 @@ jobs:
    
     steps:
     - name: Print hello world
-      run : echo "Hello world"
+      run : echo " I can print"
     
  job2 :
    runs-on: ubuntu-latest
 
    steps:
    - name: Print i can do git hub printing sentences
-     run : echo "I can print sentences in github"
+     run : echo "I can print  two sentences in github"
 
      
    
