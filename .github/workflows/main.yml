@@ -16,6 +16,15 @@ jobs:
    steps:
    - name: Print i can do git hub printing sentences
      run : echo "I can print  two sentences in github"
+ job3 :
+   azure-login:
+     runs-on: ubuntu-latest
+     steps:
+
+     
+     - uses:azure/login@v1
+       with:
+         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
      
    
